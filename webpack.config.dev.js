@@ -80,15 +80,6 @@ module.exports = {
         new DotEnv(),
     ],
     
-    devServer: {
-
-        watchFiles:path.join(__dirname,"dist/**/*"),
-        compress: true,
-        historyApiFallback: true,
-        port: 3003,
-        open:true,
-
-
-    },
+    
     
 }
